@@ -1,0 +1,32 @@
+{
+  "name": "rvadym/criteria-builder",
+  "description": "Doctrine criteria builder",
+  "license": "",
+  "type": "package",
+  "require": {
+    "php": "^7.3",
+    "doctrine/orm": "~2.6.*"
+  },
+  "require-dev": {
+    "phan/phan": "@stable",
+    "phpunit/php-code-coverage": "^7.0",
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rvadym\\CriteriaBuilder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Rvadym\\CriteriaBuilder\\": "tests/"
+    }
+  },
+  "scripts": {},
+  "config": {
+    "preferred-install": "source",
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
