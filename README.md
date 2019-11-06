@@ -1,1 +1,1 @@
-https://travis-ci.org/rvadym/types.svg?branch=master
+<img src="https://travis-ci.org/rvadym/types.svg?branch=master" />
