@@ -6,6 +6,8 @@ branches:
     - master
 script:
   - composer install
+  - phpunit
+  - php coverage-checker.php clover.xml 1
   - bin/phan --allow-polyfill-parser
   - bin/phpstan analyse src
   - bin/phpmd src text controversial,design,unusedcode
